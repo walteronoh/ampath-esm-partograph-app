@@ -24,9 +24,30 @@
       "component": "root",
       "online": true,
       "offline": true
+    },
+    {
+      "name": "foetal-heart-rate-chart",
+      "slot": "partograph-chart-slot",
+      "component": "foetalHeartRateChart",
+      "order": 0,
+      "online": true,
+      "offline": true
+    },
+    {
+      "name": "cervical-chart",
+      "slot": "partograph-chart-slot",
+      "component": "cervicalChart",
+      "order": 2,
+      "online": true,
+      "offline": true
+    },
+    {
+      "name": "blood-pressure-chart",
+      "slot": "partograph-chart-slot",
+      "component": "bloodPressureChart",
+      "online": true,
+      "offline": true
     }
   ],
-  "pages": [
-   
-  ]
+  "pages": []
 }

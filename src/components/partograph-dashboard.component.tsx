@@ -4,8 +4,8 @@ import React from 'react';
 const PartographDashboard: React.FC = () => {
     return (
         <>
-            <div>Hello from Dashboard</div>
-            <ExtensionSlot name='partograph-chart-slot'/>
+            <div>Partograph</div>
+            <ExtensionSlot name='partograph-chart-slot' state={{ hello: "Hello there" }} />
         </>
     );
 }

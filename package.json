@@ -42,6 +42,7 @@
     "url": "https://github.com/ampath/ampath-esm-partograph-app/issues"
   },
   "dependencies": {
+    "@carbon/charts-react": "^1.27.2",
     "@carbon/react": "^1.83.0",
     "lodash-es": "^4.17.21"
   },

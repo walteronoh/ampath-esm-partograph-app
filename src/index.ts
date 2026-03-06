@@ -45,3 +45,8 @@ export const patientChartPartographLink = getSyncLifecycle(
   createDashboardLink(patientChartPartographMetaData),
   options,
 );
+
+// Charts
+export const foetalHeartRateChart = getAsyncLifecycle(() => import('./components/charts/foetal-heart-rate/foetal-heart-rate.chart'), options);
+export const cervicalChart = getAsyncLifecycle(() => import('./components/charts/cervical/cervical.chart'), options);
+export const bloodPressureChart = getAsyncLifecycle(() => import('./components/charts/blood-pressure/blood-pressure.chart'), options);
